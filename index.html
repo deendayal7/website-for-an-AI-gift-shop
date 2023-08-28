@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="">
+
+
+        </div>
+        <ul>
+            <li class="item"> <a href="#home">Home</a> </li>
+            <li class="item"><a href="#services"> Services</a> </li>
+            <li class="item"><a href="#about us">About Us</a> </li>
+            <li class="item"> <a href="#client section">Client Section</a> </li>
+
+
+
+        </ul>
+
+
+    </nav>
+    <section id="Intro">
+        <h1 class="h1-primary center "> Welcome to AI gift shop </h1>
+        <p>
+            Ever received an email with product recommendations highly personalized to your interests?
+            Or maybe you’ve had a two-minute conversation with a chatbot to find a pair of trousers in your size? If the
+            answer is yes,
+            you’ve experienced AI in e-commerce.
+            We at AI gift shop offers personalized product recommendations,enhanced
+            customer service and fully automated customer experience. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet, laborum soluta recusandae possimus deleniti quaerat? Dicta quam aperiam commodi impedit explicabo tempora. Accusamus accusantium id, possimus ab provident labore. </p>
+
+
+
+    </section>
+    <section id="home">
+
+        <h1 class="h1-primary center"> Our Gift Generator </h1>
+
+        <label for="occasion">Select Occasion:</label>
+        <select id="occasion">
+            <option value="birthday">Birthday</option>
+            <option value="anniversary">Anniversary</option>
+            <option value="holiday">Holiday</option>
+            <option value="other">Other</option>
+        </select>
+        <button id="findGiftButton">Find Gift</button>
+        <div id="giftResult" style="display: none;">
+            <h2>Recommended Gift:</h2>
+            <p id="giftDescription">A beautiful gift will appear here.</p>
+            <p>Price: $<span id="giftPrice">0</span></p>
+            <button id="buyButton">Buy Now</button>
+        </div>
+        </div>
+
+    </section>
+    <section id="service-container">
+        <h1 class="h1-primary center"> Our New Collection </h1>
+        <div id="services">
+
+            <div class="box">
+                <img src="img/anniversary gifts.jpg" alt="">
+                <h2 class="h2-secondary center">Anniversary Gifts</h2>
+
+            </div>
+
+            <div class="box">
+                <img src="img/Holiday gift.jpg" alt="">
+                <h2 class="h2-secondary center">Holiday GIFTS</h2>
+            </div>
+
+            <div class="box">
+                <img src="img/Festivalgift.jpg" alt="">
+                <h2 class="h2-secondary center">Festival Gifts</h2>
+            </div>
+            <div class="box">
+                <img src="img/kidsgift.jpg" alt="">
+                <h2 class="h2-secondary center">Kids Gifts</h2>
+            </div>
+
+
+        </div>
+        <h1 class="h1-primary center"> Our Featured Collection </h1>
+        <div id="services">
+
+            <div class="box">
+                <img src="img/Home decor2.jpg" alt="">
+                <h2 class="h2-secondary center">Home Decor</h2>
+                <button id="buyButton1">Buy Now</button>
+
+            </div>
+
+            <div class="box">
+                <img src="img/customisedgifts.jpg" alt="">
+                <h2 class="h2-secondary center">Customised Gifts</h2>
+                <button id="buyButton1">Buy Now</button>
+            </div>
+
+            <div class="box">
+                <img src="img/gadgets.jpg" alt="">
+                <h2 class="h2-secondary center"> Electronic Gadgets </h2>
+                <button id="buyButton1">Buy Now</button>
+            </div>
+            <div class="box">
+                <img src="img/Top.jpg" alt="">
+                <h2 class="h2-secondary center"> Top 50 Products </h2>
+                <button id="buyButton1">Buy Now</button>
+            </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients Testimonials</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/client image.jpg" alt="Our Client">
+                <p> We are extremelly happy with the services. Received the product on time</p>
+
+            </div>
+            <div class="client-item">
+                <img src="img/client image.jpg" alt="Our Client">
+                <p> Just liked the packaging. Received the product on time</p>
+
+            </div>
+
+            <div class="client-item">
+                <img src="img/client image.jpg" alt="Our Client">
+                <p> Customer care team was supportive</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id=" contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name"> Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    
+        <button id="btn">Submit now</button>    
+
+                </div>
+
+
+
+        </div>
+
+      
+
+
+
+
+
+        </form>
+
+
+
+
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.AIgiftshop.com. All rights reserved!
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
